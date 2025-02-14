@@ -1,0 +1,36 @@
+
+/* .navbal {
+    position: fixed; /* 고정 위치 */
+    /* top: 0; /* 상단에 위치 */
+    /* left: 0; /* 왼쪽에 위치 */
+    /* width: 100%; /* 전체 너비 */
+    /* background-color: white; /* 배경색 */
+    /* z-index: 1000; /* 다른 요소 위에 표시되도록 */
+/* } */  
+
+#carouselExampleIndicators {
+    width:700%;
+    max-width: 30rem;
+    height: 30rem;
+    margin: 2rem auto;
+    overflow: hidden; /* 부모 요소에 추가 */
+    border-radius: 15px;
+
+ 
+
+}
+
+
+#carouselExampleIndicators img{
+    height:20rem;
+    object-fit: cover;
+    border-radius: 15px;
+    border-color: white;
+
+}
+
+#newsletter-signup {
+    max-width: 30rem;
+    margin: 4rem auto;
+
+}

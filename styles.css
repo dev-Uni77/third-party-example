@@ -1,36 +1,63 @@
-
 /* .navbal {
     position: fixed; /* 고정 위치 */
-    /* top: 0; /* 상단에 위치 */
-    /* left: 0; /* 왼쪽에 위치 */
-    /* width: 100%; /* 전체 너비 */
-    /* background-color: white; /* 배경색 */
-    /* z-index: 1000; /* 다른 요소 위에 표시되도록 */
-/* } */  
+/* top: 0; /* 상단에 위치 */
+/* left: 0; /* 왼쪽에 위치 */
+/* width: 100%; /* 전체 너비 */
+/* background-color: white; /* 배경색 */
+/* z-index: 1000; /* 다른 요소 위에 표시되도록 */
+/* } */
 
-#carouselExampleIndicators {
-    width:700%;
-    max-width: 30rem;
-    height: 30rem;
-    margin: 2rem auto;
-    overflow: hidden; /* 부모 요소에 추가 */
-    border-radius: 15px;
-
- 
-
+body {
+  font-family: sans-serif;
+  text-align: center;
+  font-family: "Sour Gummy", sans-serif;
+  font-weight: 70;
 }
 
+h1 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+#carouselExampleIndicators {
+  width: 70%;
+  max-width: 30rem;
+  height: 30rem;
+  margin: 2rem auto;
+  overflow: hidden; /* 부모 요소에 추가 */
+  border-radius: 15px;
+}
 
-#carouselExampleIndicators img{
-    height:20rem;
-    object-fit: cover;
-    border-radius: 15px;
-    border-color: white;
-
+#carouselExampleIndicators img {
+  height: 20rem;
+  object-fit: cover;
+  border-radius: 15px;
+  border-color: white;
 }
 
 #newsletter-signup {
-    max-width: 30rem;
-    margin: 4rem auto;
+  max-width: 30rem;
+  margin: 4rem auto;
+}
+
+section {
+  width: 100%;
+  max-width: 45rem;
+  height: 30rem;
+  margin: 1rem auto;
+  overflow: hidden; /* 부모 요소에 추가 */
+  border-radius: 15px;
+  padding: 0 ; 
+
+}
+/* 
+section .image-part {
+
+} */
+
+#main-image {
+  width: 45rem;
+  height: 25rem;
+  object-fit: cover;
+  border-radius: 15px;
 
 }

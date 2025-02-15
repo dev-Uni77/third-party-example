@@ -1,0 +1,22 @@
+{
+  "name": "2025-02-14-third-party-packages",
+  "version": "1.0.0",
+  "main": "parallax.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dev-Uni77/third-party-example.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dev-Uni77/third-party-example/issues"
+  },
+  "homepage": "https://github.com/dev-Uni77/third-party-example#readme",
+  "description": "",
+  "dependencies": {
+    "simple-parallax-js": "^6.0.1"
+  }
+}
